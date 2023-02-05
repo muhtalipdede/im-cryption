@@ -5,7 +5,7 @@ A simple npm package to encrypt and decrypt images and text files.
 ## Installation
 
 ```bash
-npm install im-cryption
+npm install -g im-cryption
 ```
 
 ## Usage
