@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "A simple image encryption and decryption project with NodeJS and TypeScript",
   "scripts": {
-    "build": "rimraf ./dist && tsc",
+    "build": "rimraf ./dist && scripts/build.js",
     "dev": "nodemon",
     "start": "npm run build && node dist/index.js"
   },
