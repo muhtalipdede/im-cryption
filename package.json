@@ -1,0 +1,40 @@
+{
+  "name": "im-cryption",
+  "version": "1.0.0",
+  "description": "A simple image encryption and decryption project with NodeJS and TypeScript",
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "dev": "nodemon",
+    "start": "npm run build && node dist/index.js"
+  },
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "keywords": [
+    "image",
+    "encryption",
+    "decryption",
+    "nodejs",
+    "typescript"
+  ],
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Muhtalip Dede",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "jimp": "^0.16.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/node": "^18.11.18",
+    "@types/uuid": "^9.0.0",
+    "nodemon": "^2.0.20",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^4.1.1",
+    "tslint": "^6.1.3"
+  }
+}
