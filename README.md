@@ -49,8 +49,6 @@ Replace `<file>` with the path to the encrypted image or text file you want to d
 
 - Please make sure to remember your password, as there is no way to recover an encrypted file without it.
 
-- The encrypted files will have a `.encrypted` extension.
-
 ## License
 
 This package is licensed under the MIT license.
