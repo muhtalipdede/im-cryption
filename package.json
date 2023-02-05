@@ -1,6 +1,6 @@
 {
   "name": "im-cryption",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple image encryption and decryption project with NodeJS and TypeScript",
   "scripts": {
     "build": "rimraf ./dist && scripts/build.js",
@@ -25,6 +25,7 @@
   "license": "ISC",
   "dependencies": {
     "crypto-js": "^4.1.1",
+    "im-cryption": "^1.0.2",
     "jimp": "^0.16.2",
     "uuid": "^9.0.0"
   },
