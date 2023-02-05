@@ -1,6 +1,6 @@
 {
   "name": "im-cryption",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple image encryption and decryption project with NodeJS and TypeScript",
   "scripts": {
     "build": "rimraf ./dist && scripts/build.js",
